@@ -1,0 +1,124 @@
+main.contact-container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+main.contact-container div.contact-banner{
+    margin-top: 160px;
+    width: 100%;
+    height: 100%;
+}
+
+div.contact-banner img {
+    width: 100vw;
+    height: 100%;
+}
+
+div.contact-banner h1 {
+    position: absolute;
+    width: 419px;
+    height: 170px;
+    left: 122px;
+    top: 214px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    text-transform: lowercase;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+main.contact-container div.form-container{
+    margin-top: 105px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div.form-container img {
+    width: 350px;
+    height: 100%;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+div.form-container form {
+    width: 820px;
+    height: 766px;
+    background: #FFFFFF;
+    border: 1px solid #FFA000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    padding: 0 38px;
+}
+
+div.form-container form h2{
+    margin-top: 65px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFC107;
+}
+
+div.form-container form input{
+    margin-bottom: 26px;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    padding: 0 15px;
+}
+
+div.form-container form textarea{
+    margin-bottom: 26px;
+    width: 100%;
+    height: 295px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px;
+}
+
+div.form-container form button{
+    width: 165px;
+    height: 50px;
+    background: #FFC107;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+div.form-container form button:hover{
+    background: #FFF;
+    color: #FFC107;
+    border: 1px solid #FFC107;
+}
+
+@media screen and (max-width: 900px){
+    div.form-container img {
+        display: none;
+    }
+}
